@@ -1,1 +1,1 @@
-Pyramid star pattern
+AK.cpp - Pyramid star pattern
