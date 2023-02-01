@@ -1,1 +1,1 @@
-# code
+Pyramid star pattern
