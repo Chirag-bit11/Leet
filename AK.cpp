@@ -1,27 +1,19 @@
-#include <iostream>
-using namespace std;
+class Solution {
+public:
+    int subtractProductAndSum(int n) {
+      int sum = 0;
+      int product = 1;
 
-int main()
-{
+      while (n>0){
+          int remainder = n%10;
+          sum = sum + remainder;
 
-    int n;
-    cout<<"no. of rows";
-    cin>>n;
-    int k;
-    for(int i=1, k=0; i<=n; i++, k=0 )
-    {
-        for (int s=1; s<=(n-i); s++ )
-        {
-            cout<<" ";
-        }
-        while (k != (2*i)-1)
-        {
-            cout<<"*";
-            k++;
-        }
-        cout<<endl;
+          product = product*remainder;
+          n=n/10;
+
+      }
+      
+      
+      return product-sum ;  
     }
-        return 0;
-
-}
-
+};
