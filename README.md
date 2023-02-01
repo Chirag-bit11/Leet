@@ -1,1 +1,1 @@
-AK.cpp - Pyramid star pattern
+AK.cpp-1281-Subtract the Product and Sum of Digits of an Integer
